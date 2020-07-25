@@ -1,2 +1,30 @@
 # xerotest
-This is a sample test in relation to Xero technical exam
+This is a sample automated tests in relation to Xero technical exam
+
+There are two test cases defined for below user story:
+As a Xero user
+I want to be able to add an "ANZ (NZ)" bank account inside any Xero Organization
+
+Scenario 1:
+    Given I login as a user from Demo Company
+    When I add a single ANZ Bank Account with CC as account type
+    Then I verify that the bank account is added successfully
+
+Scenario 2:
+    Given I login as a user from Demo Company
+    When I add multiple ANZ Bank Accounts with different account types
+    Then I verify that each bank account is added successfully
+
+To execute this test:
+Clone the project from Github
+Right click and Run the "AddBankAccount" class file under /test/java/ folder
+Both two test cases should pass
+
+Notes:
+I create my own login credentials and use the Demo Company as a sample organization
+
+Plans for TODOs:
+-To make it in a BDD format using Cucumber
+-Create a report
+
+
