@@ -15,16 +15,16 @@ Scenario 2:
     When I add multiple ANZ Bank Accounts with different account types
     Then I verify that each bank account is added successfully
 
-To execute this test:
-Clone the project from Github
-Right click and Run the "AddBankAccount" class file under /test/java/ folder
-Both two test cases should pass
-
 Notes:
 I create my own login credentials and use the Demo Company as a sample organization
 
 Plans for TODOs:
 -To make it in a BDD format using Cucumber
 -Create a report
+
+To execute this test:
+Clone the project from Github as a maven project
+Right click and Run the "AddBankAccount" class file under /test/java/ folder
+Both two test cases should pass
 
 
