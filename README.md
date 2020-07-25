@@ -18,9 +18,11 @@ Scenario 2:
 Notes:
 I create my own login credentials and use the Demo Company as a sample organization
 
-Plans for TODOs:
+Plans for updates/optimization:
 -To make it in a BDD format using Cucumber
+-To add Web driver/browser set up in a separate class file
 -Create a report
+
 
 To execute this test:
 Clone the project from Github as a maven project
